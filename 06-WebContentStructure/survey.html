@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patient Data Form</title>
+    </head>
+    
+    <body>
+        <form>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+            
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender">
+            <label for="male">Female</label><br>
+            
+            <label for="gpt">How often do you use ChatGPT</label><br>
+            <select name="gpt" id="gpt">
+                <option value="1">never</option>
+                <option value="2">rarely</option>
+                <option value="3">occasionally"</option>
+                <option value="4">often</option>
+                <option value="5">constantly</option>
+            </select><br>
+            
+            <label for="benefits">Describe shortly your benefits from using AI</label><br>
+            <textarea id="benefits" name="benefits"></textarea>
+        </form>
+    </body>
+</html>
