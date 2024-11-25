@@ -1,0 +1,31 @@
+th {
+    background: #126612;
+    color: #EEEEEE
+}
+
+tr:hover th{
+    color: #126612;
+    background: #EEEEEE;
+}
+
+tr:hover td{
+    color: #EEEEEE;
+    background: #126612AA;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th:nth-of-type(1) {
+    width: 25%;
+}
+
+th:nth-of-type(-1) {
+    width: 40%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #115511;
+}
